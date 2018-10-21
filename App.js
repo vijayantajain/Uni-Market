@@ -24,6 +24,7 @@ export default class App extends Component<Props> {
         <Text style={styles.welcome}>Welcome to Uni-Market!</Text>
         <Text style={styles.instructions}>Hello! This edit is by Felix.</Text>
         <Text style={styles.instructions}>To get started, edit App.js</Text>
+        <Text style={styles.instructions}>Hola Pepsi-Cola!!!</Text>
         <Text style={styles.instructions}>{instructions}</Text>
       </View>
     );
