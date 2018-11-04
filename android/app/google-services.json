@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "593751545992",
+    "firebase_url": "https://uni-market.firebaseio.com",
+    "project_id": "uni-market",
+    "storage_bucket": "uni-market.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593751545992:android:e53a673f806f9b11",
+        "android_client_info": {
+          "package_name": "com.unimarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593751545992-13b3l16g10s783hquctv0sp6o89br2kp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBovNMunHATQQhB0QF8rds65y0S5llrAvE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
