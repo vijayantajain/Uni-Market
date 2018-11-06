@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:593751545992:android:e53a673f806f9b11",
+        "mobilesdk_app_id": "1:593751545992:android:be0c1a2ab7215217",
         "android_client_info": {
-          "package_name": "com.unimarket"
+          "package_name": "com.uni_market"
         }
       },
       "oauth_client": [
