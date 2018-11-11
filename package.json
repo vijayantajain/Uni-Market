@@ -8,6 +8,7 @@
     "android-windows": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && react-native run-android"
   },
   "dependencies": {
+    "merge": "^1.2.1",
     "react": "16.6.0-alpha.8af6728",
     "react-native": "0.57.3",
     "react-native-image-picker": "^0.27.1",
@@ -15,7 +16,10 @@
     "react-redux": "^5.1.0",
     "redux": "^4.0.1",
     "redux-form": "^7.4.2",
-    "tcomb-form-native": "^0.6.20"
+    "tcomb-form-native": "^0.6.20",
+    "react-native-firebase": "^5.0.0",
+    "react-native-router-flux": "^4.0.5",
+    "react-navigation": "^2.18.2"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
