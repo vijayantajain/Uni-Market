@@ -14,7 +14,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.1.4'
-        classpath 'com.google.gms:google-services:4.0.1'
+        classpath 'com.google.gms:google-services:4.2.0' //change back to 4.0.1
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -24,12 +24,12 @@ buildscript {
 allprojects {
     repositories {
         mavenLocal()
+        google()
         jcenter()
         maven {
             // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
             url "$rootDir/../node_modules/react-native/android"
         }
-        google()
     }
 }
 
@@ -37,15 +37,4 @@ allprojects {
 task wrapper(type: Wrapper) {
     gradleVersion = '4.4'
     distributionUrl = distributionUrl.replace("bin", "all")
-}
-
-dependencies {
-  // Add to dependencies
-  compile(project(':react-native-firebase')) {
-    transitive = false
-  }
-  compile "com.google.firebase:firebase-core:11.4.2"
-
-  // If you are receiving Google Play API availability issues, add the following dependency
-  compile "com.google.android.gms:play-services-base:11.4.2"
 }
