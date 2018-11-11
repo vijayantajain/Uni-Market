@@ -56,3 +56,7 @@ buck-out/
 *.jsbundle
 
 ios/
+
+# .project and .classpath files
+*.project
+*.classpath
